@@ -1,0 +1,65 @@
+/*
+fieldset all but no the last : border-bottom: 3px solid #3b3b4f;
+input,textare: background-color: #0a0a23;
+                border: 1px solid #0a0a23;
+                color: #ffffff;
+
+submit: background-color: #3b3b4f;
+        border-color: white;
+*/
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        line-height: 2em;
+        text-transform: capitalize;
+        font-size:1.1em;
+
+}
+body{
+        background: rgb(63, 63, 164);
+        color: #f5f6f7;
+        font-family: Tahoma;
+}
+div{
+        text-align: center;
+        margin: 2em auto;
+}
+
+fieldset{
+        padding-left: 6em;
+        margin: auto;
+        width: 80%;
+        height: auto;
+        margin-top:1em;
+        padding:1em 0;
+        border: none;
+}
+label{
+        margin-left: .5em;
+        display: block;
+
+}
+input, select,textarea{
+        width: 100%;
+        background-color: #0a0a23;
+        color: #ffffff;
+        border: 1px solid #5c5cb6;
+}
+.cen{
+        width:unset;
+}
+input[type="submit"]{
+        width: 40%;   
+        margin:2em 30%;
+        background-color: #3b3b4f;
+        border-color: white;
+        color: white;
+}
+h1{
+        font-size: 2em;
+        font-weight: bolder;
+}
+a{
+        color: white;
+}
